@@ -1,1 +1,1 @@
-execute unless score $global full_netherite = $global full_netherite run function drunk:full_netherite_actions
+execute unless score $global full_netherite = $global full_netherite unless score $global full_netherite_toggle = $global full_netherite_toggle run function drunk:full_netherite_actions

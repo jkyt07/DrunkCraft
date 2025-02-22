@@ -1,1 +1,1 @@
-execute unless score $global full_dima = $global full_dima run function drunk:full_dima_actions
+execute unless score $global full_diamond = $global full_diamond unless score $global full_diamond_toggle = $global full_diamond_toggle run function drunk:full_diamond_actions

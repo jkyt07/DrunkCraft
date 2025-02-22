@@ -1,1 +1,1 @@
-execute unless score $global end = $global end run function drunk:end_actions
+execute unless score $global end = $global end unless score $global end_toggle = $global end_toggle run function drunk:end_actions

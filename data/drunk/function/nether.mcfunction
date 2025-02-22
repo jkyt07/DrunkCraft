@@ -1,1 +1,1 @@
-execute unless score $global nether = $global nether run function drunk:nether_actions
+execute unless score $global nether = $global nether unless score $global nether_toggle = $global nether_toggle run function drunk:nether_actions

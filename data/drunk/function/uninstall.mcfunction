@@ -5,7 +5,7 @@ advancement revoke @a only drunk:mushroom
 advancement revoke @a only drunk:crafting
 advancement revoke @a only drunk:end
 advancement revoke @a only drunk:ender_dragon
-advancement revoke @a only drunk:full_dima
+advancement revoke @a only drunk:full_diamond
 advancement revoke @a only drunk:nether
 advancement revoke @a only drunk:stronghold
 advancement revoke @a only drunk:return
@@ -13,7 +13,7 @@ advancement revoke @a only drunk:trade
 advancement revoke @a only drunk:fortress
 
 # Remove os objetivos
-scoreboard objectives remove full_dima
+scoreboard objectives remove full_diamond
 scoreboard objectives remove full_netherite
 scoreboard objectives remove debris
 scoreboard objectives remove nether
@@ -155,3 +155,27 @@ scoreboard objectives remove elytra
 
 # Remove a tag init dos jogadores
 tag @a remove init
+
+# Remove toggle objectives
+scoreboard objectives remove first_join_toggle
+scoreboard objectives remove crafting_toggle
+scoreboard objectives remove broke_equipment_toggle
+scoreboard objectives remove time_alive_toggle
+scoreboard objectives remove passive_toggle
+scoreboard objectives remove return_to_sender_toggle
+scoreboard objectives remove debris_toggle
+scoreboard objectives remove full_netherite_toggle
+scoreboard objectives remove ender_dragonv
+scoreboard objectives remove end_toggle
+scoreboard objectives remove stronghold_toggle
+scoreboard objectives remove nether_toggle
+scoreboard objectives remove full_diamond_toggle
+scoreboard objectives remove trade_toggle
+scoreboard objectives remove mushroom_toggle
+scoreboard objectives remove crafting2_toggle
+scoreboard objectives remove obsidian_toggle
+scoreboard objectives remove coal_toggle
+scoreboard objectives remove iron_toggle
+scoreboard objectives remove gold_toggle
+scoreboard objectives remove emerald_toggle
+scoreboard objectives remove diamond_toggle

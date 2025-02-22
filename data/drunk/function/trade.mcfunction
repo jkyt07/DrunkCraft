@@ -1,0 +1,1 @@
+execute unless score $global trade_toggle = $global trade_toggle run function drunk:trade_actions

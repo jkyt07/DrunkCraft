@@ -1,1 +1,1 @@
-execute unless score $global return_to_sender = $global return run function drunk:return_to_sender_actions
+execute unless score $global return_to_sender = $global return_to_sender unless score $global return_to_sender_toggle = $global return_to_sender_toggle run function drunk:return_to_sender_actions

@@ -10,7 +10,7 @@
       ]
     ],
     "rewards": {
-      "function": "drunk:trade_actions"
+      "function": "drunk:trade"
     },
     "sends_telemetry_event": false
   }

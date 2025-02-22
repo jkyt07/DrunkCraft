@@ -1,1 +1,1 @@
-execute unless score $global stronghold = $global stronghold run function drunk:stronghold_actions
+execute unless score $global stronghold = $global stronghold unless score $global stronghold_toggle = $global stronghold_toggle run function drunk:stronghold_actions

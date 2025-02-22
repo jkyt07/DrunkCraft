@@ -3,68 +3,87 @@
 
 # Full Diamond
 scoreboard objectives add full_diamond dummy
+scoreboard objectives add full_diamond_toggle dummy
 
 # Full Netherite
 scoreboard objectives add full_netherite dummy
+scoreboard objectives add full_netherite_toggle dummy
 
 # Debris
 scoreboard objectives add debris dummy
+scoreboard objectives add debris_toggle dummy
 
 # Nether
 scoreboard objectives add nether dummy
+scoreboard objectives add nether_toggle dummy
 
 # Ender Dragon
 scoreboard objectives add ender_dragon dummy
+scoreboard objectives add ender_dragon_toggle dummy
 
 # End
 scoreboard objectives add end dummy
+scoreboard objectives add end_toggle dummy
 
 # Stronghold
 scoreboard objectives add stronghold dummy
+scoreboard objectives add stronghold_toggle dummy
 
 # Craft
 scoreboard objectives add crafting dummy
+scoreboard objectives add crafting_toggle dummy
 
 # Mushroom
 scoreboard objectives add mushroom dummy
+scoreboard objectives add mushroom_toggle dummy
 
 # Return to Sender
 scoreboard objectives add return_to_sender dummy
+scoreboard objectives add return_to_sender_toggle dummy
 
 # Fortress
 scoreboard objectives add fortress dummy
+scoreboard objectives add fortress_toggle dummy
 
 # Ores
 # Diamond
 scoreboard objectives add diamond minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add diamond_deep minecraft.mined:minecraft.deepslate_diamond_ore
+scoreboard objectives add diamond_toggle dummy
 
 # Obsidian
 scoreboard objectives add obsidian minecraft.mined:minecraft.obsidian
 scoreboard objectives add obsidian_cry minecraft.mined:minecraft.crying_obsidian
+scoreboard objectives add obsidian_toggle dummy
 
 # Iron
 scoreboard objectives add iron minecraft.mined:minecraft.iron_ore
 scoreboard objectives add iron_deep minecraft.mined:minecraft.deepslate_iron_ore
+scoreboard objectives add iron_toggle dummy
 
 # Coal
 scoreboard objectives add coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add coal_deep minecraft.mined:minecraft.deepslate_coal_ore
+scoreboard objectives add coal_toggle dummy
 
 # Gold
 scoreboard objectives add gold minecraft.mined:minecraft.gold_ore
 scoreboard objectives add gold_deep minecraft.mined:minecraft.deepslate_gold_ore
+scoreboard objectives add gold_toggle dummy
 
 # Emerald
 scoreboard objectives add emerald minecraft.mined:minecraft.emerald_ore
 scoreboard objectives add emerald_deep minecraft.mined:minecraft.deepslate_emerald_ore
+scoreboard objectives add emerald_toggle dummy
 
 
 # Deaths
 scoreboard objectives add deaths deathCount
+scoreboard objectives add deaths_toggle dummy
 
 # Time Alive
 scoreboard objectives add time_alive minecraft.custom:minecraft.time_since_death
+scoreboard objectives add time_alive_toggle dummy
 
 # Add the init tag
 tag @a[tag=!init] add init
@@ -105,6 +124,8 @@ scoreboard objectives add dolphin minecraft.killed:minecraft.dolphin
 scoreboard objectives add llama minecraft.killed:minecraft.llama
 scoreboard objectives add wolf minecraft.killed:minecraft.wolf
 scoreboard objectives add panda minecraft.killed:minecraft.panda
+
+scoreboard objectives add passive_toggle dummy
 
 # Breaking Equipment
 # Pickaxes
@@ -189,3 +210,13 @@ scoreboard objectives add shield minecraft.broken:minecraft.shield
 scoreboard objectives add bow minecraft.broken:minecraft.bow
 scoreboard objectives add crossbow minecraft.broken:minecraft.crossbow
 scoreboard objectives add trident minecraft.broken:minecraft.trident
+
+scoreboard objectives add broke_equipment_toggle dummy
+
+# Other Rule Toggles
+scoreboard objectives add first_join_toggle dummy
+scoreboard objectives add crafting2_toggle dummy 
+scoreboard objectives add trade_toggle dummy 
+
+
+tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"dark_aqua","bold":false,"text":" Reloaded!"}]

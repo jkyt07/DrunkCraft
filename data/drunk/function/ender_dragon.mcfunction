@@ -1,1 +1,1 @@
-execute unless score $global ender_dragon = $global ender_dragon run function drunk:ender_dragon_actions
+execute unless score $global ender_dragon = $global ender_dragon unless score $global ender_dragon_toggle = $global ender_dragon_toggle run function drunk:ender_dragon_actions

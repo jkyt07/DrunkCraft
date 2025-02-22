@@ -1,1 +1,1 @@
-execute unless score $global fortress = $global fortress run function drunk:fortress_actions
+execute unless score $global fortress = $global fortress unless score $global fortress_toggle = $global fortress_toggle run function drunk:fortress_actions

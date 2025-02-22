@@ -1,1 +1,1 @@
-execute unless score $global mushroom = $global mushroom run function drunk:mushroom_actions
+execute unless score $global mushroom = $global mushroom unless score $global mushroom_toggle = $global mushroom_toggle run function drunk:mushroom_actions
