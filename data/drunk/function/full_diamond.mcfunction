@@ -1,0 +1,1 @@
+execute unless score $global full_dima = $global full_dima run function drunk:full_dima_actions

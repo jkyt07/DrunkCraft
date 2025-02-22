@@ -1,0 +1,2 @@
+execute unless score $global crafting = $global crafting run function drunk:crafting_actions
+execute if score $global crafting = $global crafting run execute if predicate drunk:crafting_rng run function drunk:crafting_actions2

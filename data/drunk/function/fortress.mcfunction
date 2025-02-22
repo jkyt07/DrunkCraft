@@ -1,0 +1,1 @@
+execute unless score $global fortress = $global fortress run function drunk:fortress_actions

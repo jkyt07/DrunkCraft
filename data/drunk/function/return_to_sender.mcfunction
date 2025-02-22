@@ -1,0 +1,1 @@
+execute unless score $global return_to_sender = $global return run function drunk:return_to_sender_actions

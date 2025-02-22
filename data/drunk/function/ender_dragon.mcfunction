@@ -1,0 +1,1 @@
+execute unless score $global ender_dragon = $global ender_dragon run function drunk:ender_dragon_actions

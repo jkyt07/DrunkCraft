@@ -1,0 +1,1 @@
+execute unless score $global end = $global end run function drunk:end_actions

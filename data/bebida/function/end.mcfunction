@@ -1,1 +1,0 @@
-execute unless score $global end = $global end run function bebida:end_actions

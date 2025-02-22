@@ -1,1 +1,0 @@
-execute unless score $global stronghold = $global stronghold run function bebida:stronghold_actions

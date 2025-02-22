@@ -1,1 +1,0 @@
-execute unless score $global full_netherite = $global full_netherite run function bebida:full_netherite_actions

@@ -1,1 +1,0 @@
-execute unless score $global ender_dragon = $global ender_dragon run function bebida:ender_dragon_actions

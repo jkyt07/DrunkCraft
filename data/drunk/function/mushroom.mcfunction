@@ -1,0 +1,1 @@
+execute unless score $global mushroom = $global mushroom run function drunk:mushroom_actions

@@ -1,0 +1,1 @@
+execute unless score $global debris = $global debris run function drunk:debris_actions

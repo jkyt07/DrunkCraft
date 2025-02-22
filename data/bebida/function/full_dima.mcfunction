@@ -1,1 +1,0 @@
-execute unless score $global full_dima = $global full_dima run function bebida:full_dima_actions
