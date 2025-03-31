@@ -23,6 +23,7 @@ function drunk:rules/iron
 function drunk:rules/gold
 function drunk:rules/emerald
 function drunk:rules/diamond
+function drunk:rules/death
 
 
 tellraw @s {"text":"---------------------------------------------------","color":"black"}

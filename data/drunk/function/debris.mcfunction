@@ -1,1 +1,1 @@
-execute unless score $global debris = $global debris unless score $global debris_toggle = $global debris_toggle run function bebida:debris_actions
+execute unless score $global debris = $global debris unless score $global debris_toggle = $global debris_toggle run function drunk:debris_actions
