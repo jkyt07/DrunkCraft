@@ -1,11 +1,13 @@
 title @a times 5t 20t 5t
 
-title @p subtitle ["",{"text":"To take a shot","bold":false}]
+title @s subtitle ["",{"text":"To take a shot","bold":false}]
 
-title @p title ["",{"text":"Choose someone","color":"gold","bold":true}]
+title @s title ["",{"text":"Choose someone","color":"gold","bold":true}]
 
 playsound minecraft:entity.player.levelup player @a
 
-tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"dark_red","bold":false,"selector":"@p"},{"color":"dark_red","bold":false,"text":" was the first to kill a Ghast by deflecting its fireball and can now choose someone to take a shot!"}]
+tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"dark_red","bold":false,"selector":"@s"},{"color":"dark_red","bold":false,"text":" was the first to kill a Ghast by deflecting its fireball and can now choose someone to take a shot!"}]
 
 scoreboard players set $global return_to_sender 0
+
+# TODO: Add player selector to take drinks

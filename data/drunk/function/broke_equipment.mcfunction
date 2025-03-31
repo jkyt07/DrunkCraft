@@ -1,2 +1,2 @@
 # This rule had a lot of checks so I moved them out to apply the toggle condition
-execute unless score $global broke_equipment_toggle = $global broke_equipment_toggle run function drunk:broke_equipment_check 
+execute unless score $global broke_equipment_toggle = $global broke_equipment_toggle run function drunk:broke_equipment_check

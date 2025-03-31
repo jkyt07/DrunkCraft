@@ -1,6 +1,5 @@
-# Use o comando "/function drunk:uninstall" para que todos os objetivos e tag sejam removidos
-
-# Remove os advancements
+# Use command "/function drunk:uninstall" to remove all objectives, tags, and advancements
+# Remove advancements
 advancement revoke @a only drunk:mushroom
 advancement revoke @a only drunk:crafting
 advancement revoke @a only drunk:end
@@ -8,11 +7,11 @@ advancement revoke @a only drunk:ender_dragon
 advancement revoke @a only drunk:full_diamond
 advancement revoke @a only drunk:nether
 advancement revoke @a only drunk:stronghold
-advancement revoke @a only drunk:return
+advancement revoke @a only drunk:return_to_sender
 advancement revoke @a only drunk:trade
 advancement revoke @a only drunk:fortress
 
-# Remove os objetivos
+# Remove objectives
 scoreboard objectives remove full_diamond
 scoreboard objectives remove full_netherite
 scoreboard objectives remove debris
@@ -22,7 +21,7 @@ scoreboard objectives remove end
 scoreboard objectives remove stronghold
 scoreboard objectives remove crafting
 scoreboard objectives remove mushroom
-scoreboard objectives remove return
+scoreboard objectives remove return_to_sender
 scoreboard objectives remove fortress
 scoreboard objectives remove diamond
 scoreboard objectives remove diamond_deep
@@ -69,7 +68,7 @@ scoreboard objectives remove llama
 scoreboard objectives remove wolf
 scoreboard objectives remove panda
 
-# Remove objetivos de equipamentos quebrados (Picaretas)
+# Remove Objectives for Boots
 scoreboard objectives remove w_pick
 scoreboard objectives remove s_pick
 scoreboard objectives remove i_pick
@@ -77,7 +76,7 @@ scoreboard objectives remove g_pick
 scoreboard objectives remove d_pick
 scoreboard objectives remove n_pick
 
-# Remove objetivos de equipamentos quebrados (Espadas)
+# Remove Objectives for Boots
 scoreboard objectives remove w_sword
 scoreboard objectives remove s_sword
 scoreboard objectives remove i_sword
@@ -85,7 +84,7 @@ scoreboard objectives remove g_sword
 scoreboard objectives remove d_sword
 scoreboard objectives remove n_sword
 
-# Remove objetivos de equipamentos quebrados (Machados)
+# Remove Objectives for Boots
 scoreboard objectives remove w_axe
 scoreboard objectives remove s_axe
 scoreboard objectives remove i_axe
@@ -93,7 +92,7 @@ scoreboard objectives remove g_axe
 scoreboard objectives remove d_axe
 scoreboard objectives remove n_axe
 
-# Remove objetivos de equipamentos quebrados (Pás)
+# Remove Objectives for Boots
 scoreboard objectives remove w_shovel
 scoreboard objectives remove s_shovel
 scoreboard objectives remove i_shovel
@@ -101,7 +100,7 @@ scoreboard objectives remove g_shovel
 scoreboard objectives remove d_shovel
 scoreboard objectives remove n_shovel
 
-# Remove objetivos de equipamentos quebrados (Enxadas)
+# Remove Objectives for Boots
 scoreboard objectives remove w_hoe
 scoreboard objectives remove s_hoe
 scoreboard objectives remove i_hoe
@@ -109,7 +108,7 @@ scoreboard objectives remove g_hoe
 scoreboard objectives remove d_hoe
 scoreboard objectives remove n_hoe
 
-# Remove objetivos de equipamentos quebrados (Capacetes)
+# Remove Objectives for Boots
 scoreboard objectives remove l_helmet
 scoreboard objectives remove c_helmet
 scoreboard objectives remove i_helmet
@@ -117,7 +116,7 @@ scoreboard objectives remove g_helmet
 scoreboard objectives remove d_helmet
 scoreboard objectives remove n_helmet
 
-# Remove objetivos de equipamentos quebrados (Peitorais)
+# Remove Objectives for Boots
 scoreboard objectives remove l_chestplate
 scoreboard objectives remove c_chestplate
 scoreboard objectives remove i_chestplate
@@ -125,7 +124,7 @@ scoreboard objectives remove g_chestplate
 scoreboard objectives remove d_chestplate
 scoreboard objectives remove n_chestplate
 
-# Remove objetivos de equipamentos quebrados (Calças)
+# Remove Objectives for Boots
 scoreboard objectives remove l_leggings
 scoreboard objectives remove c_leggings
 scoreboard objectives remove i_leggings
@@ -133,7 +132,7 @@ scoreboard objectives remove g_leggings
 scoreboard objectives remove d_leggings
 scoreboard objectives remove n_leggings
 
-# Remove objetivos de equipamentos quebrados (Botas)
+# Remove Objectives for Boots
 scoreboard objectives remove l_boots
 scoreboard objectives remove c_boots
 scoreboard objectives remove i_boots
@@ -141,7 +140,7 @@ scoreboard objectives remove g_boots
 scoreboard objectives remove d_boots
 scoreboard objectives remove n_boots
 
-# Remove objetivos de equipamentos Misc
+# Remove Objectives for Misc Equipment
 scoreboard objectives remove shear
 scoreboard objectives remove flint_and_steel
 scoreboard objectives remove fishing_rod
@@ -153,7 +152,7 @@ scoreboard objectives remove crossbow
 scoreboard objectives remove trident
 scoreboard objectives remove elytra
 
-# Remove a tag init dos jogadores
+# Remove init tag
 tag @a remove init
 
 # Remove toggle objectives
@@ -165,7 +164,7 @@ scoreboard objectives remove passive_toggle
 scoreboard objectives remove return_to_sender_toggle
 scoreboard objectives remove debris_toggle
 scoreboard objectives remove full_netherite_toggle
-scoreboard objectives remove ender_dragonv
+scoreboard objectives remove ender_dragon
 scoreboard objectives remove end_toggle
 scoreboard objectives remove stronghold_toggle
 scoreboard objectives remove nether_toggle
@@ -179,3 +178,7 @@ scoreboard objectives remove iron_toggle
 scoreboard objectives remove gold_toggle
 scoreboard objectives remove emerald_toggle
 scoreboard objectives remove diamond_toggle
+
+# Remove Misc objectives
+scoreboard objectives remove drinks
+scoreboard objectives remove shotAmount

@@ -210,13 +210,22 @@ scoreboard objectives add shield minecraft.broken:minecraft.shield
 scoreboard objectives add bow minecraft.broken:minecraft.bow
 scoreboard objectives add crossbow minecraft.broken:minecraft.crossbow
 scoreboard objectives add trident minecraft.broken:minecraft.trident
+scoreboard objectives add elytra minecraft.broken:minecraft.elytra
 
 scoreboard objectives add broke_equipment_toggle dummy
 
 # Other Rule Toggles
 scoreboard objectives add first_join_toggle dummy
-scoreboard objectives add crafting2_toggle dummy 
-scoreboard objectives add trade_toggle dummy 
+scoreboard objectives add crafting2_toggle dummy
+scoreboard objectives add trade_toggle dummy
+
+# Misc Counters
+scoreboard objectives add drinks dummy {"text": "Total Drinks"}
+scoreboard objectives setdisplay sidebar drinks 
+
+# How many drinks a shot counts for
+scoreboard objectives add shotAmount dummy
+scoreboard players set $global shotAmount 10
 
 
 tellraw @a ["",{"color":"gold","bold":true,"text":"<DrinkingCraft> "},{"color":"dark_aqua","bold":false,"text":" Reloaded!"}]
