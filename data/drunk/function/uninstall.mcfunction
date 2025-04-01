@@ -67,6 +67,8 @@ scoreboard objectives remove dolphin
 scoreboard objectives remove llama
 scoreboard objectives remove wolf
 scoreboard objectives remove panda
+scoreboard objectives remove hunger
+scoreboard objectives remove thirsty
 
 # Remove Objectives for Boots
 scoreboard objectives remove w_pick
@@ -178,6 +180,7 @@ scoreboard objectives remove iron_toggle
 scoreboard objectives remove gold_toggle
 scoreboard objectives remove emerald_toggle
 scoreboard objectives remove diamond_toggle
+scoreboard objectives remove thirsty_toggle
 
 # Remove Misc objectives
 scoreboard objectives remove drinks

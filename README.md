@@ -28,6 +28,7 @@ A Datapack that turns Minecraft into a Drinking Game. Made for version 1.21.1, w
 - Chance to drink when killing a passive mob (5%)
 
 - Finish your drink when you die
+- Drink when your hunger goes below 3 bars
 - Drink when you go 10 minutes without dying
 - Drink when your equipment breaks
 

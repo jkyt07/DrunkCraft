@@ -85,6 +85,11 @@ scoreboard objectives add deaths_toggle dummy
 scoreboard objectives add time_alive minecraft.custom:minecraft.time_since_death
 scoreboard objectives add time_alive_toggle dummy
 
+# Thirsty
+scoreboard objectives add hunger food
+scoreboard objectives add thirsty minecraft.custom:minecraft.play_time
+scoreboard objectives add thirsty_toggle dummy
+
 # Add the init tag
 tag @a[tag=!init] add init
 

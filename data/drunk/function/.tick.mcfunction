@@ -6,6 +6,7 @@ function drunk:coal
 function drunk:iron
 function drunk:obsidian
 function drunk:death
+function drunk:thirsty
 function drunk:time_alive
 function drunk:first_join
 function drunk:broke_equipment

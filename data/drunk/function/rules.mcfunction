@@ -4,6 +4,7 @@ tellraw @s {"text":"Here's the list of Drinking Rules:","color":"yellow"}
 function drunk:rules/first_join
 function drunk:rules/crafting
 function drunk:rules/broke_equipment
+function drunk:rules/thirsty
 function drunk:rules/time_alive
 function drunk:rules/passive
 function drunk:rules/return_to_sender
